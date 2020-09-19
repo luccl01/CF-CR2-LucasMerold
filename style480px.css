@@ -2,7 +2,7 @@
 
 @media screen and (max-width:600px) {
     body {
-        background-color: red;
+      
         max-width: 480px;
     }
     .container {
@@ -33,7 +33,9 @@
         height: 50%;
         
     }
-    
+    .Banner1{
+        display: none;
+    }
     .navbar {
         
         display: flex;
@@ -71,16 +73,18 @@
         color: teal;
         font-size: 180%;
     }
+/* -------------------------------------------Hier beginnt block 1 ----------- */
+
+
     .Block1 {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         width: 80%;
-        margin: 0 10% ;
+        margin: 10% 10% ;
         margin-bottom: 2%;
-        
-    
     }
+
     .Blockheader{
         display: flex ;
         justify-content: flex-start;
@@ -88,34 +92,31 @@
         background-color: rgb(177, 174, 174);
         font-size: 25px;
         padding: 10px;
-    
+
     }
+    
     .Block1images{
-        /* flex-flow: row; */
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: space-between;
+        flex-direction: row;
         align-content: space-between;
-        padding-top: 2%;   /*eventuell padding weg */
-        width: 100%;
+        padding-top: 2%;  
+        width: 100%;    
+    }
+
     
-        
-    }
-    .Block1 img{
-        width: 30%;
-    }
     .Box1{
         display: flex;
         background-image: url("jeff.png");
         background-size: cover;
-        width: 30%;
-        height: 200px;
+        width: 40%;
+        height: 100px;
         align-items:flex-end;
-    
     }
+
     .Box1 a{
         width: 100%;
-        /* height: 35%; */
         background-color: black;
         display: flex;
         height: 35%;
@@ -123,43 +124,48 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        font-size: 30%;
     }
+
     .Box2{
         display: flex;
         background-image: url("eu.png");
         background-size: cover;
-        width: 30%;
-        height: 200px;
+        width: 40%;
+        height: 100px;
         align-items:flex-end;
     }
+
     .Box2 a{
         width: 100%;
-        /* height: 35%; */
         background-color: black;
         display: flex;
         height: 35%;
         color: white;
         justify-content: center;
         align-items: center;
+        font-size: 30%;
     }
+
     .Box3{
         display: flex;
         background-image: url("phone.png");
         background-size: cover;
-        width: 30%;
-        height: 200px;
-        align-items:flex-end;
+        width: 40%;
+        height: 100px;
     }
+
     .Box3 a{
         width: 100%;
-        /* height: 35%; */
         background-color: black;
+        font-size: 30%;
         display: flex;
         height: 35%;
         color: white;
         justify-content: center;
         align-items: center;
     }
+
     .Box4{
         display: flex;
         background-image: url("phone.png");
@@ -168,33 +174,230 @@
         height: 200px;
         align-items:flex-end;
     }
+
     .Box4 a{
         width: 100%;
-        /* height: 35%; */
         background-color: black;
         display: flex;
         height: 35%;
         color: white;
         justify-content: center;
         align-items: center;
+
+    }
+
+    #Iphone{
+        background-image: url("iphone.png");
+        background-size: cover;
+        width: 40%;
+    }
+
+    #earphones{
+        background-image: url("one.png");
+        background-size: cover;
+        width: 40%;
+    }
+
+    #musk {
+        background-image: url("musk.jpg");
+        background-size: cover;
+        width: 40%;
+    }
+    
+    .Box6{
+        display: flex;
+        width: 20%;
+        height: 100px;
+        align-items: center;
+    }
+
+    .Box6 img{
+        align-self: flex-start;
+        display: flex;
+        width: 150px;
+        height: 100px;
+    }
+
+    .Box7{
+        display: flex;
+        width: 20%;
+        height: 100px;
+        align-items: center;
+    }
+
+    .Box7 img{
+        align-self: flex-start;
+        display: flex;
+        width: 150px;
+        height: 100px;
+    }
+
+    .Blockheader2, .Box5, .date {
+        display: none;
+    }
+
+    .Block1images2{
+        
+        display: flex;
+        flex-wrap: wrap;  
+        padding-top: 2%;   
+        width: 90%;  
+    }
+
+    .row1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+       
+    }
+    
+    .row2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        
+    
+    }
+    
+    .boxrow1 {
+        display: flex;
+        background-image: url("jeff.png");
+        background-size: cover;
+        width: 100%;
+        height: 120px;
+        align-items:flex-end;
+        /* border: 1px solid green; */
+    }
+    .boxrow1 a {
+        width: 100%;
+        background-color: black;
+        font-size: 30%;
+        display: flex;
+        height: 35%;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    #watches{
+        background-image: url("polar.png");
+        background-size: cover;
+        width: 40%;
+    }
+    #satelite{
+        background-image: url("nasa.png");
+        background-size: cover;
+        width: 40%;
+    }
+    #polars{
+        background-image: url("smart.png");
+        background-size: cover;
+        width: 40%;
+    }
+    #code{
+        background-image: url("snowden.jpg");
+        background-size: cover;
+        width: 40%;
     }
 
 
+    /* --------------------------------------FOOTER-------------------------------------  */
+    
+    
+    .footer{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        /* position: fixed; */
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;     
+        
+    }
+    /* .fixed {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;     
+    } */
+    .footer{
+        
+        margin-top: 40px;
+    }
+    .footerend {
+        
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 200px;
+        background-color:black;
+        justify-content: center;
+        align-items: ;
+    }
+    .footerend div {
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .logoNewspaper{
+        width: 60%;
+        height: 50%;
+        display: flex;
+        align-self: center;
+        padding-right: 30px;
+        
+    }
+    
+    
+    .navbar {
+        
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: black;
+        height: 40px;   /*eventuell später anpassen */
+        margin: o 20px 0 25px;
+    }
+    
+    ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        float: left;
+    }
+    
+    li a {
+        padding: 0px 30px;   /* eventuell noch abändern für flow */
+        text-decoration: none;
+        color: white;
+        font-size: 110%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    li a:hover {
+        color: teal;
+        font-size: 180%;
+    }
+    .nameCF {
+        display: flex;
+        order: 1;
+        justify-content: center;
+        color: white;
+        padding-right: 80px;
+        padding-bottom: 30px;
+        font-size: 100%;
+    }
+  
 
 
 
