@@ -1,4 +1,13 @@
 
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightgreen;
+        max-width: 480px;
+    }
+}
+
+
 .container {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -145,8 +154,6 @@ li a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
-    
 }
 .Box2{
     display: flex;
@@ -184,3 +191,239 @@ li a:hover {
     justify-content: center;
     align-items: center;
 }
+.Box4{
+    display: flex;
+    background-image: url("phone.png");
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    align-items:flex-end;
+}
+.Box4 a{
+    width: 100%;
+    /* height: 35%; */
+    background-color: black;
+    display: flex;
+    height: 35%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#Iphone{
+    background-image: url("iphone.png");
+    background-size: cover;
+    width: 30%;
+}
+#earphones{
+    background-image: url("one.png");
+    background-size: cover;
+    width: 30%;
+}
+#musk {
+    background-image: url("musk.jpg");
+    background-size: cover;
+    width: 30%;
+}
+
+
+.Block2 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin: 0 10% 0 10% ; */
+    margin-bottom: 2%;
+    /* border: 1px solid black; */
+    
+
+}
+.Blockheader2{
+    display: flex ;
+    align-self: center;
+    width: 60%;
+    height: 30px;
+    background-image: url("banner-3.png");
+    background-repeat: no-repeat;
+    font-size: 25px;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+.Block1images2{
+    /* flex-flow: row; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: space-between; */
+    flex-wrap: wrap;
+    /* align-content: space-between; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    padding-top: 2%;   /*eventuell padding weg */
+    width: 68%;
+    /* border: 1px solid red; */
+   
+}
+.row1 {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    width: 100%;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.row2 {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    width: 100%;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding-right: 40px;
+
+}
+
+.boxrow1 {
+    display: flex;
+    background-image: url("jeff.png");
+    background-size: cover;
+    width: 50%;
+    height: 240px;
+    align-items:flex-end;
+    /* border: 1px solid green; */
+}
+.boxrow1 a {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    height: 30%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#watches{
+    background-image: url("polar.png");
+    background-size: cover;
+    width: 45%;
+}
+#satelite{
+    background-image: url("nasa.png");
+    background-size: cover;
+    width: 45%;
+}
+#polars{
+    background-image: url("smart.png");
+    background-size: cover;
+    width: 45%;
+}
+#code{
+    background-image: url("snowden.jpg");
+    background-size: cover;
+    width: 45%;
+}
+
+.Box5 {
+    display: flex;
+    align-self: flex-end; 
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+    height: 500px;
+}
+.footer{
+
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;     
+    /* border: 1px solid black; */
+    /* -------------------------> Header fixed evtl noch abändern  */
+}
+/* .fixed {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;     
+} */
+.footer{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+.footerend {
+    /* border: 1px solid green; */
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    justify-content: flex-end;
+    align-items: ;
+}
+.footerend div {
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.logoNewspaper{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    padding-right: 30px;
+    
+}
+
+.Banner1 {
+    width: 35%;
+    height: 70%;
+}
+
+.navbar {
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 40px;   /*eventuell später anpassen */
+}
+
+ul {
+display: flex;
+list-style-type: none;
+width: 100%;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    float: left;
+}
+
+li a {
+    padding: 0px 30px;   /* eventuell noch abändern für flow */
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a:hover {
+    color: teal;
+    font-size: 180%;
+}
+.nameCF {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    font-size: 120%;
+}
+
+/* der footer ist fast das gleiche wie der header bzw die navbar, nur anders angeordnet  */
